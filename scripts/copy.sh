@@ -1,0 +1,1 @@
+cp $HOME/dotfiles/.npmrc $HOME
