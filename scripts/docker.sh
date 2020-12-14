@@ -11,7 +11,7 @@
 ENABLE_NONROOT_DOCKER=${1:-"true"}
 SOURCE_SOCKET=${2:-"/var/run/docker-host.sock"}
 TARGET_SOCKET=${3:-"/var/run/docker.sock"}
-USERNAME=${4:-""}
+USERNAME=${4:-"automatic"}
 USE_MOBY=${5:-"true"}
 
 set -e
