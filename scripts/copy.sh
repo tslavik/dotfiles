@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/sh
 echo $HOME
 cp $HOME/dotfiles/.npmrc $HOME

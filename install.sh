@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 echo "This script is about to run another script."
 . scripts/az-cli-install.sh
 . scripts/copy.sh
